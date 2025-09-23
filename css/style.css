@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(245, 243, 241);
+}
+a {
+    color: antiquewhite;
+}
+
+h1, h2, h3 {
+    font-family: "Lora", serif;
+}
+
+img {
+    width: 100%;
+}
+
+.project-img {
+    max-width: 500px;
+}
