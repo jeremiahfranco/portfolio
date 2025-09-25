@@ -3,15 +3,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: rgb(245, 243, 241);
+    color: rgb(240, 233, 233);
 }
-a {
+
+.a {
     color: antiquewhite;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6{
     font-family: "Lora", serif;
 }
+
 
 img {
     width: 100%;
@@ -36,6 +38,12 @@ nav ul li a {
 .project-img {
     max-width: 700px;
     text-align: center;
+    border-radius: 20px;
+}
+
+.photo {
+    border-radius: 20px;
+    max-width: 300px;
 }
 
 .profile-card {
@@ -47,6 +55,7 @@ nav ul li a {
 
 .profile-pic {
     max-width: 850px;
+   border-radius: 20px;
    
 }
 
@@ -60,5 +69,12 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 }
 
+footer {
+    background-color: aliceblue;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
