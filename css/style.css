@@ -43,6 +43,12 @@ nav ul li a {
     flex-direction: column;
 }
 
+.text {
+    font-style: oblique;
+    font-size: large;
+    background-color: blue;
+}
+
 @media screen and  (max-width: 768px) {
 
     .project-img {
