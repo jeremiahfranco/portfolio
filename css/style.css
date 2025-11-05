@@ -20,6 +20,14 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Lora", serif;
 }
 
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
 
 img {
     width: 100%;
@@ -51,6 +59,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .project-img {
@@ -86,6 +96,10 @@ main {
     max-width: 850px;
    border-radius: 20px;
    
+}
+
+.bio {
+    margin-top: 40px;
 }
 
 .button {
@@ -140,4 +154,12 @@ footer {
     .project-img {
     flex-direction: column;
 }
+
+}
+
+@media screen and (min-width: 1060px) {
+        .project-container {
+            display: flex;
+            gap: 20px;
+        }
 }
